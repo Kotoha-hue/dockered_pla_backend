@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.7-alpine3.15
 WORKDIR /usr/src/app
 RUN apt-get -y update
 RUN apt-get -y install git
