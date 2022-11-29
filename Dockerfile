@@ -1,4 +1,4 @@
-FROM FROM python:3
+FROM python:3
 RUN apt-get -y update
 RUN apt-get -y install git
 RUN groupadd -r django && useradd -r -g django django
